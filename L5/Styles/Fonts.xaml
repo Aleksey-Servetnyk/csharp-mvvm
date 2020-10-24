@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:L5"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <FontFamily x:Key="FontAwesome">pack://appliction;,,,/Fonts/#FontAwesome</FontFamily>
+    
+    <Style TargetType="{x:Type Button}">
+
+        <Setter Property="FontSize" Value="{StaticResource FontSizeXXLarge}" />
+
+    </Style>  
+    
+    <system:Double x:Key="FontSizeXXLarge">30</system:Double>
+
+    <system:String x:Key="FontAwesomeInsertIcon">&#xf055;</system:String>
+    <system:String x:Key="FontAwesomeChangeIcon">&#xf14b;</system:String>
+    <system:String x:Key="FontAwesomeDeleteIcon">&#xf056;</system:String>
+    <system:String x:Key="FontAwesomeCancelIcon">&#xf057;</system:String>
+    <system:String x:Key="FontAwesomeRecordIcon">&#xf25d;</system:String>
+    <system:String x:Key="FontAwesomeSearchIcon">&#xf002;</system:String>
+    <system:String x:Key="FontAwesomeRefreshIcon">&#xf1b8;</system:String>
+
+</ResourceDictionary>
